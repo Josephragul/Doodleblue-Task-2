@@ -1,0 +1,190 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+      .logo{
+            width:100%;
+      }
+
+
+.carousel-inner .overlay span {
+      color: #308409;
+}
+.carousel-inner img {
+      width: 100%;
+      margin-top: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      
+      height: 600px;
+}
+    .carousel-inner .overlay p {
+          position: relative;
+          color: #666666;
+          width: 45%;
+          flex: 1;
+          top: -480px;
+          font-size: 18px;
+          line-height: 1.7rem;
+          left: 130px;
+          padding: 0px;
+          font-weight: 400;
+    }
+
+
+.plants-heading hr{
+      visibility: hidden;
+}
+ .overlay .btn-primary{
+     
+      margin: 25px;
+ }
+.plants-heading p {
+      margin-bottom: 150px;
+}
+
+.about-box{
+      width: 100%;
+}
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+.carousel-inner .overlay h1 {
+      position: relative;
+      color: black;
+      width: 30%;
+      flex: 1;
+      top: 50px;
+      font-weight: 900;
+      text-align: center;
+      left: 100px;
+      padding: 20px;
+}
+      .meanmenu-reveal span {
+      width: 500px;
+
+      height: 50px;
+      color: black solid 3px;
+}
+      .carousel-inner .overlay h1 {
+            position: relative;
+            color: black;
+            width: 100%;
+            flex: 2;
+            top: -520px;
+            font-weight: 900;
+            text-align: center;
+            left: 0;
+            padding: 20px;
+      }
+
+      .carousel-inner .overlay span {
+            color: #308409;
+      }
+      
+      .carousel-inner img {
+            width: 100%;
+            margin-top: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            clear: both;
+            height: 600px;
+      }
+
+      .carousel-inner .overlay p {
+            width: 90%;
+            left: 40px;
+           justify-items: center;
+           
+      }
+
+
+.overlay .btn-primary {
+      left: 80px;
+      width: 100px;
+      font-size: 14px;
+
+} 
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+      
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .carousel-inner .flour {
+          visibility: hidden;
+    }
+    
+    
+    
+    .Gallery hr{
+          width:80%;
+      margin-left: 50px;
+    }
+
+    .Gallery img{
+          width: 100%;
+          align-items: center;
+          margin-left: 0;
+    }
+
+    .go-plants hr{
+          margin-left: 0;
+    }
+    .menu-list a{
+          font-size: 14px;
+          visibility: hidden;
+    }
+
+    .logo-section .logo{
+          width:15rem;
+          margin-left: 100px;
+          margin-top: 50px;
+    }
+
+    .carousel-inner img{
+          width:100%;
+         
+    }
+
+    .carousel-inner .btn-primary{
+          margin-top: -25px;
+    }
+    .location_icon img {
+          width: 15px;
+    }
+
+    .menu-bottom{
+          width:100%;
+    }
+    .footer-box {
+          width: 100%;
+          text-align: center;
+    }
+    .menu-bottom li{
+      margin-left: -50px;
+     
+      font-size: 14px;
+    }
+    .Nursery-img img{
+          visibility: hidden;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
